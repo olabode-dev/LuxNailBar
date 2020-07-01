@@ -22,8 +22,10 @@ li, a {
 /* header background color */
 .container{
     background: rgba(0, 0, 0, 0.7);
-    background-image: url();
+    background-image: url("/img/img1.jpg");
     background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
 }
 
 /* styling of header components */
