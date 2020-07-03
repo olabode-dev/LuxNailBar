@@ -164,15 +164,12 @@ margin-bottom: 10px;
 
 /* styling of nail fixing process */
 .card_content{
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px; */
     background: #FD92C0;
     margin-bottom: 64px;
-    padding-bottom: 161px;
+    padding-bottom: 100px;
     padding-right: 192.5px;
     padding-left: 192.5px;
-    padding-top: 157px;
+    padding-top: 100px;
 }
 
 .process{
@@ -229,7 +226,7 @@ margin-bottom: 10px;
 .how__itworks{
     display: flex;
     flex-wrap: nowrap;
-    margin: auto;
+    /* margin: auto; */
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -321,11 +318,14 @@ margin-bottom: 10px;
     margin-bottom: 100px;
 }
 .contact-flex{
-    display: flex;
+    /* display: flex;
     flex-direction: nowrap;
     flex-wrap: nowrap;
     align-self: auto;
-    align-content: space-between;
+    align-content: space-between; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
 .form > p {
     margin-bottom: 50px;
@@ -352,11 +352,11 @@ margin-bottom: 10px;
 
 .contact__img {
     background: rgba(0, 0, 0, 0.49);
-    background-image: url("/img/img4.jpg");
+    /* background-image: url("/img/img4.jpg");
     background-blend-mode: multiply;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .footer__elements{
@@ -436,4 +436,99 @@ margin-bottom: 10px;
 }
 
 
-/* styling for movile, using media queries */
+/* styling for mobile, using media queries */
+@media screen and (max-width: 950px ) {
+    
+      .form__input{
+        width: 300px;
+        height: 50px;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .email_icon{
+        padding-left: 20px;
+    }
+    .input__button{
+        font-size: 16px;
+        width: 140px;
+        height: 50px;
+    }
+    .card_content{
+        padding-bottom: 100px;
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-top: 100px;
+        margin-bottom: 30px;
+    }
+    .process{
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: space-between;
+        /* flex-direction: column; */
+    }
+    .why{
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .listen_ceo{
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
+    .iframe{
+        height: 500px;
+    }
+    .luxnail_4steps{
+        margin-bottom: 50px;
+    }
+    .work_text{
+        font-size: 25px;
+        padding-top: 32px;
+    }
+    .how__itworks{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .steps{
+        padding-top: 100px;
+    }
+    .__4steps > p{
+        margin-bottom: 40px;
+    }
+    .work_image{
+        width: 775px;
+        height: 350px;
+        margin-top: 69px;
+        margin-left: 140px;
+        margin-bottom: 50px;
+    }
+    .testimony__header{
+        text-align: center;
+        padding-top: 20px;
+        font-size: 25px;
+    }
+    .contact_us_text{
+        font-size: 22px;
+        color: #2B2828;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .contact_us{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .form > p {
+        margin-bottom: 30px;
+    }
+    .form > h3{
+        margin-top: 20px;
+        font-size: 22px;
+        margin-bottom: 24px;
+    }
+
+    
+
+
+
+@media screen and (max-width: ){
+
+}
