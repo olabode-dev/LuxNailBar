@@ -9,7 +9,8 @@ span {
     color: #FF579F;
 }
 /* list styles */
-li, a {
+
+ .nav__links > li a  {
     text-decoration: none;
     list-style-type: none;
     color: #ffffff;
@@ -18,7 +19,10 @@ li, a {
     font-weight: bold;
     font-size: 20px;
 }
-
+ a {
+    text-decoration: none;
+    color: #ffffff;
+}
 /* header background color */
 .container{
     background: rgba(0, 0, 0, 0.7);
@@ -26,7 +30,7 @@ li, a {
     background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
 
 }
 
@@ -38,7 +42,7 @@ li, a {
     color: #ffffff;
 }
 
-.nav__links li{
+.nav__links  li{
     display: inline-block;
     padding-right: 20px;
     padding-left: 20px;
@@ -60,7 +64,7 @@ li, a {
     font-family: Saira;
     font-style: normal;
     font-weight: 900;
-    font-size: 30px; 
+    font-size: 25px; 
 }
 
 .header__text{
@@ -318,7 +322,8 @@ margin-bottom: 10px;
 }
 .contact-flex{
     display: flex;
-    flex-flow: nowrap;
+    flex-direction: nowrap;
+    flex-wrap: nowrap;
     align-self: auto;
     align-content: space-between;
 }
@@ -345,3 +350,90 @@ margin-bottom: 10px;
     margin-bottom: 24px;
 }
 
+.contact__img {
+    background: rgba(0, 0, 0, 0.49);
+    background-image: url("/img/img4.jpg");
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer__elements{
+    display: flex;
+    justify-content: space-evenly;
+    background: #FF579F;
+}
+
+.about__footer > li > a {
+    color: #8D0E45;
+    text-decoration: none;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+}
+.about__footer > li {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer__header{
+    margin-top: 70px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    color: #8D0E45 
+}
+
+.company__footer > li > a {
+    color: #8D0E45;
+    text-decoration: none;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+}
+.company__footer > li {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contactus__footer > li > a {
+    color: #8D0E45;
+    text-decoration: none;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+}
+.contactus__footer > li {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer__{
+    background: #FF579F;
+    margin-top: 40px;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 40px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #8D0E45;
+    padding-bottom: 25px;
+}
+
+
+/* styling for movile, using media queries */
