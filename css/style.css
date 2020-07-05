@@ -686,8 +686,8 @@ margin-bottom: 10px;
 }
 .iframe{
     height: 250px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
     margin-bottom: 30px;
 }
 .luxnail_4steps{
@@ -704,8 +704,8 @@ margin-bottom: 10px;
     /* justify-content: center; */
     /* align-items: center; */
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .steps{
     padding-top: 10px;
@@ -716,9 +716,9 @@ margin-bottom: 10px;
 .work_image{
     width: 330px;
     height: 370px;
-    margin-left: 2px;
+    margin-left: 0px;
     margin-top: 30px;
-    padding-left: 2px;
+    padding-left: 0px;
 }
 .testimony{
     height: 65vh;
@@ -741,8 +741,10 @@ margin-bottom: 10px;
 }
 
 .contact_us{
-    padding-left: 2px;
-    padding-left: 2px;
+    padding-left: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 .contact-flex{
     margin-left: 5px;
@@ -777,6 +779,16 @@ margin-bottom: 10px;
 }
 .mobile{
     margin-top: -15px;
+}
+
+.footer__{
+    margin-top: 5px;
+}
+.contact__img > iframe{
+    width: 93vw;
+    height: 40vh;
+    padding-right: 0px;
+
 }
 
 
