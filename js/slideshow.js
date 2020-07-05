@@ -13,8 +13,8 @@ function showSlide(n) {
     nextButton.style.display = 'none';
   }
   if (n < ((slides.length) - 1)) {
-    nextButton.style.display = 'block';
-    prevButton.style.display = 'block';
+    nextButton.style.display = 'none';
+    prevButton.style.display = 'none';
 
   }
   if (n === 0) {

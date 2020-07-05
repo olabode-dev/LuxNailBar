@@ -7,6 +7,10 @@
 body {
     background: #E5E5E5;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 /* text color altering */
 span {
     color: #FF579F;
@@ -225,8 +229,8 @@ margin-bottom: 10px;
 }
 /* the 4 steps styling */
 .luxnail_4steps{
-    background: #FD92C0;
-    margin-bottom: 55px;
+    background:  #2B2828;
+    margin-bottom: 90px;
     
 }
 .work_text{
@@ -236,7 +240,7 @@ margin-bottom: 10px;
     font-weight: bold;
     font-size: 32px;
     padding-top: 45px;
-    color: #8D0E45;
+    color: #ffffff;
 }
 .how__itworks{
     display: flex;
@@ -253,7 +257,7 @@ margin-bottom: 10px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    color: #8D0E45;
+    color:#ffffff;
     /* padding-right: 270px; */
 }
 
@@ -407,21 +411,16 @@ margin-bottom: 10px;
 
 .contact__img {
     background: #E5E5E5;
-    /* background-image: url("/img/img4.jpg");
-    background-blend-mode: multiply;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 .footer__elements{
     display: flex;
     justify-content: space-evenly;
-    background: #FF579F;
+    background:  #2B2828;
 }
 
 .about__footer > li > a {
-    color: #8D0E45;
+    color:#ffffff;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -441,11 +440,11 @@ margin-bottom: 10px;
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
-    color: #8D0E45 
+    color:#ffffff 
 }
 
 .company__footer > li > a {
-    color: #8D0E45;
+    color: #ffffff;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -460,7 +459,7 @@ margin-bottom: 10px;
 }
 
 .contactus__footer > li > a {
-    color: #8D0E45;
+    color:#ffffff;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -475,7 +474,7 @@ margin-bottom: 10px;
 }
 
 .footer__{
-    background: #FF579F;
+    background:  #2B2828;
     margin-top: 40px;
 }
 
@@ -486,11 +485,11 @@ margin-bottom: 10px;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    color: #8D0E45;
+    color:#ffffff;
     padding-bottom: 25px;
 }
 
-/* styling for mobile, using media queries */
+/* styling for Tablets, using media queries */
 @media screen and (max-width: 950px ) {
     
       .form__input{
@@ -580,7 +579,7 @@ margin-bottom: 10px;
     }
 
 
-    /* styling for burger/nav bar */
+    /* styling for burger/nav bar  and mobile responsiveness*/
     @media screen and (max-width:768px){
         body{
             overflow-x: hidden;   
@@ -589,7 +588,7 @@ margin-bottom: 10px;
             .nav__links{
                 position: absolute;
                 right: 0px;
-                height: 100vh;
+                height: 50vh;
                 top: 8vh;
                 background-color:  #FF579F;
                 display: flex;
@@ -655,6 +654,10 @@ margin-bottom: 10px;
         padding-top: 200px;
         padding-left: 20px; 
     }
+    .nav__links > li a {
+        font-size: 15px;
+    }
+
     .nail_tip{
         padding-left: 5px;
     }
@@ -698,6 +701,9 @@ margin-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column-reverse;
+    /* justify-content: center; */
+    /* align-items: center; */
+    align-items: center;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -724,12 +730,14 @@ margin-bottom: 10px;
     font-size: 1.1em;
 }
 .contact_us_text{
+    text-align: center;
     margin-bottom: 30px;
 }
 .contact-flex{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    align-items: center;
 }
 
 .contact_us{
@@ -758,8 +766,7 @@ margin-bottom: 10px;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 12px;
-    color: #8D0E45 
+    font-size: 14px;
 }
 
 .copyright{
