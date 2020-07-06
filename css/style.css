@@ -194,7 +194,6 @@ margin-bottom: 10px;
     display: flex;
     flex-wrap: nowrap;
     align-content: space-between;
-    /* flex-direction: column; */
 }
 
 /* video from ceo page styling */
@@ -382,14 +381,8 @@ margin-bottom: 10px;
     margin-bottom: 70px;
 }
 .contact-flex{
-    /* display: flex;
-    flex-direction: nowrap;
-    flex-wrap: nowrap;
-    align-self: auto;
-    align-content: space-between; */
     display: grid;
     grid-template-columns: 1fr 1fr;
-
 }
 .form > p {
     margin-bottom: 50px;
@@ -583,8 +576,7 @@ margin-bottom: 10px;
         margin-bottom: 24px;
     }
 
-
-    /* styling for burger/nav bar  and mobile responsiveness*/
+/* styling for burger/nav bar  and mobile responsiveness*/
     @media screen and (max-width:768px){
         body{
             overflow-x: hidden;   
