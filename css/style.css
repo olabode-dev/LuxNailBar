@@ -246,8 +246,8 @@ margin-bottom: 10px;
     display: flex;
     flex-wrap: nowrap;
     /* margin: auto; */
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 .steps{
     padding-top: 150px;
@@ -263,12 +263,17 @@ margin-bottom: 10px;
 
 .__4steps > p{
     margin-bottom: 66px;
+    
+}
+.__4steps > p >img{
+    margin-bottom: -8px;
+    margin-right: 10px;
 }
 .work_image{
     width: 605px;
     height: 470px;
     margin-top: 69px;
-    margin-left: 180px;
+    margin-left: 120px;
     margin-bottom: 57px;
 }
 .work_image{
