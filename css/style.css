@@ -37,6 +37,7 @@ span {
     background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
 
 }
@@ -488,7 +489,7 @@ margin-bottom: 10px;
 }
 
 /* styling for Tablets, using media queries */
-@media screen and (max-width: 950px ) {
+@media screen and (max-width: 900px ) {
     
       .form__input{
         width: 300px;
@@ -960,7 +961,7 @@ align-items: center;
     margin-bottom: 18px;
 }
 .contact__img > iframe {
-    margin-left: -28px;
+    /* margin-left: -18px; */
     margin-right: 20px;
 }
 
