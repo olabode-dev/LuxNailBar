@@ -63,6 +63,8 @@ span {
 .hover:hover{
     border-bottom: 2px solid #FF579F;
     border-radius: 10%;
+    transition: 0.5s ease-out;
+    transition: 0.5s step-start;
 }
 .logo{
     margin-right: auto;
@@ -258,7 +260,7 @@ margin-bottom: 10px;
     font-weight: normal;
     font-size: 16px;
     color:#ffffff;
-    /* padding-right: 270px; */
+    margin-right: 80px;
 }
 
 .__4steps > p{
@@ -273,7 +275,7 @@ margin-bottom: 10px;
     width: 605px;
     height: 470px;
     margin-top: 69px;
-    margin-left: 120px;
+    margin-left: 50px;
     margin-bottom: 57px;
 }
 .work_image{
@@ -792,6 +794,16 @@ margin-bottom: 10px;
 @media screen and (max-width:600px){
     body{
         overflow-x: hidden;   
+    }
+    .container{
+        background: rgba(0, 0, 0, 0.7);
+        background-image: url("/img/img11.jpg");
+        background-blend-mode: multiply;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    
     }
     
         .nav__links{
